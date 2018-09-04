@@ -1,5 +1,5 @@
 # Site settings
-title: 尘埃
+title: 我心又起
 SEOTitle: 顾小五的个人博客
 header-img: img/index.jpg
 email: 337118043@qq.com
@@ -19,9 +19,10 @@ sidebar-avatar: /img/timg.jpg      # use absolute URL, seeing it's used in both 
 
 # SNS settings
 RSS: false
+github_username:    liuyueweiyu
 weibo_username:     u/3022995272
 zhihu_username:     qing-zheng-xiang-ming-yue-15/activities
-github_username:    liuyueweiyu
+
 # facebook_username:  baiying.qiu.7
 # jianshu_username:   e71990ada2fd
 #twitter_username:   qiubaiying
