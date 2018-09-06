@@ -10,20 +10,7 @@ layout: default
 <!-- Link Gitalk 的支持文件  -->
 <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
 <script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script> 
-<div id="gitalk-container"></div>     <script type="text/javascript">
-    var gitalk = new Gitalk({
 
-    // gitalk的主要参数
-        clientID: `4979111d819f8e1fa813`,
-        clientSecret: `05afe30ad7b27c82a77a9be5df405cc2b0835da5`,
-        repo: `liuyueweiyu.github.io`,
-        owner: '顾小五',
-        admin: ['liuyueweiyu'],
-        id: 'window.location.pathname',
-    
-    });
-    gitalk.render('gitalk-container');
-</script> 
 <!-- Gitalk end -->
 
 <!-- Post Header -->
@@ -191,7 +178,20 @@ layout: default
     </div>
 </article>
 
+<div id="gitalk-container"></div>     <script type="text/javascript">
+    var gitalk = new Gitalk({
 
+    // gitalk的主要参数
+        clientID: `4979111d819f8e1fa813`,
+        clientSecret: `05afe30ad7b27c82a77a9be5df405cc2b0835da5`,
+        repo: `liuyueweiyu.github.io`,
+        owner: '顾小五',
+        admin: ['liuyueweiyu'],
+        id: 'window.location.pathname',
+    
+    });
+    gitalk.render('gitalk-container');
+</script> 
 {% if site.disqus_username %}
 <!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
 <script type="text/javascript">
